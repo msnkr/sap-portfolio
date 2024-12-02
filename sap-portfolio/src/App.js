@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import mukuru from "./images/home-page-image/mukuru-1.png";
 import tonic from "./images/home-page-image/tonic-1.png";
 import heyHalfway from "./images/home-page-image/hey-halfway-1.png";
-import jimBeam from "./images/home-page-image/jim-beam-3.png";
+import jimBeam from "./images/home-page-image/jim-beam-1.png";
 import bos from "./images/home-page-image/bos-1.png";
 
 export default function App() {
