@@ -8,7 +8,7 @@ const Navbar = () => {
         <Logo />
       </div>
       <div>
-        <img src={hamburgerIcon} className="w-10" />
+        <img src={hamburgerIcon} className="w-10 cursor-pointer" />
       </div>
     </div>
   );
