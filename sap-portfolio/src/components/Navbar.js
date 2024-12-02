@@ -7,6 +7,13 @@ import { useState } from "react";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const [subMenu, setSubMenu] = useState(false);
+  const [medSubMenu, setMedSubMenu] = useState(false);
+
+  const handleMedSubMenu = () => {
+    setMedSubMenu((prev) => {
+      return !prev;
+    });
+  };
 
   const handleHover = () => {
     setSubMenu(true);
@@ -26,17 +33,37 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between relative">
         <div>
           <Logo />
         </div>
-        <div>
+        <div className="absolute top-2 right-0">
           <img
             onClick={handleClick}
             src={hamburgerIcon}
             alt="burger-icon"
-            className="w-12 cursor-pointer"
+            className="w-12 cursor-pointer md:hidden"
           />
+        </div>
+        <div>
+          <ul className="md:flex space-x-8 text-lg font-semibold relative hidden">
+            <li className="cursor-pointer">About</li>
+            <ul
+              className={`${
+                medSubMenu ? "block" : "hidden"
+              } absolute top-8 text-end right-0`}
+              onMouseLeave={handleMedSubMenu}
+            >
+              <li className="cursor-pointer">Mukuru</li>
+              <li className="cursor-pointer">Tonic</li>
+              <li className="cursor-pointer">Hey-Halfway</li>
+              <li className="cursor-pointer">Jim Beam</li>
+              <li className="cursor-pointer">BOS</li>
+            </ul>
+            <li className="cursor-pointer" onMouseOver={handleMedSubMenu}>
+              My Work
+            </li>
+          </ul>
         </div>
       </div>
       <div
