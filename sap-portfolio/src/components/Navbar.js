@@ -50,8 +50,10 @@ const Navbar = () => {
             <li className="cursor-pointer">About</li>
             <ul
               className={`${
-                medSubMenu ? "block" : "hidden"
-              } absolute top-8 text-end right-0`}
+                medSubMenu
+                  ? "visible opacity-100 translate-y-0"
+                  : "invisible opacity-0 -translate-y-1/2"
+              } absolute top-8 text-end right-0 duration-500`}
               onMouseLeave={handleMedSubMenu}
             >
               <li className="cursor-pointer">Mukuru</li>
