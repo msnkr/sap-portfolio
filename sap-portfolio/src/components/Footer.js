@@ -23,7 +23,7 @@ const Footer = () => {
           <p>email@company.com</p>
           <p>Resume</p>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center space-x-4">
           <img src={linkedinIcon} className="cursor-pointer" />
           <img src={behanceIcon} className="cursor-pointer" />
         </div>
