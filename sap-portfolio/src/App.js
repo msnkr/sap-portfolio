@@ -14,7 +14,7 @@ export default function App() {
       <div className="navbar-section py-16 px-8 md:p-20 lg:px-40">
         <Navbar />
       </div>
-      <div className="main-image-section my-12 py-16">
+      <div className="main-image-section my-12 py-8">
         <ImageItem
           image={mukuru}
           brand={"Mukuru"}

@@ -11,10 +11,10 @@ const ImageItem = ({ image, brand, script }) => {
       </div>
       <div>
         <div className="absolute top-1/2 -translate-y-1/2 left-12 text-white space-y-4">
-          <p className="cursor-pointer text-4xl font-bold tracking-widest">
+          <p className="cursor-pointer text-4xl font-bold tracking-tight">
             {brand}
           </p>
-          <p className="text-lg tracking-tight">{script}</p>
+          <p className="text-lg">{script}</p>
         </div>
       </div>
     </div>
