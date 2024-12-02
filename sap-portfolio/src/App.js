@@ -11,10 +11,10 @@ import bos from "./images/home-page-image/bos-1.png";
 export default function App() {
   return (
     <div className="select-none">
-      <div className="navbar-section p-8 md:p-20 lg:px-40">
+      <div className="navbar-section py-16 px-8 md:p-20 lg:px-40">
         <Navbar />
       </div>
-      <div className="main-image-section my-12">
+      <div className="main-image-section my-12 py-16">
         <ImageItem
           image={mukuru}
           brand={"Mukuru"}
@@ -37,7 +37,7 @@ export default function App() {
         />
         <ImageItem image={bos} brand={"BOS"} script={"Make it BOS"} />
       </div>
-      <div className="footer-section">
+      <div className="footer-section py-16">
         <Footer />
       </div>
     </div>
