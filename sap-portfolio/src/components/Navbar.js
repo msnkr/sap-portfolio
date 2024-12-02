@@ -1,61 +1,74 @@
 import Logo from "./Logo";
 import hamburgerIcon from "../images/icon-hamburger.svg";
+import closeIcon from "../images/icon-close.svg";
 
 import { useState } from "react";
 
 const Navbar = () => {
-  const [hover, setHover] = useState(false);
-  const [click, setClick] = useState(false);
-
-  const handleClick = () => {
-    setClick((prev) => {
-      return !prev;
-    });
-  };
+  const [navbar, setNavbar] = useState(false);
+  const [subMenu, setSubMenu] = useState(false);
 
   const handleHover = () => {
-    setHover(true);
+    setSubMenu(true);
   };
 
-  const handleLeave = () => {
-    setHover(false);
+  const handleExit = () => {
+    setSubMenu(false);
+  };
+
+  const handleClick = () => {
+    setNavbar(true);
+  };
+
+  const handleClose = () => {
+    setNavbar(false);
   };
 
   return (
-    <div className="flex items-center justify-between">
-      <div>
-        <Logo />
-      </div>
-      <div className="relative">
+    <div>
+      <div className="flex items-center justify-between">
+        <div>
+          <Logo />
+        </div>
         <div>
           <img
             onClick={handleClick}
             src={hamburgerIcon}
-            className="w-10 cursor-pointer md:hidden"
+            alt="burger-icon"
+            className="w-12 cursor-pointer"
+          />
+        </div>
+      </div>
+      <div
+        className={`${
+          navbar ? "block" : "hidden"
+        } bg-black w-full h-screen absolute top-0 left-0 z-50`}
+      >
+        <div className=" absolute top-14 right-4 w-12">
+          <img
+            src={closeIcon}
+            className="cursor-pointer"
+            onClick={handleClose}
           />
         </div>
         <div>
+          <ul className="absolute top-1/4 -translate-y-1/2 right-8 text-white text-xl text-end">
+            <li className="cursor-pointer" onMouseOver={handleHover}>
+              My Work
+            </li>
+            <li>About</li>
+          </ul>
           <ul
             className={`${
-              click ? "block space-x-0" : "hidden"
-            } md:flex space-x-12`}
+              subMenu ? "visible" : "invisible"
+            } text-white text-end absolute top-1/4 -translate-y-1/2 left-1/2 text-xl`}
+            onMouseLeave={handleExit}
           >
-            <a onMouseOver={handleHover}>
-              <li className="work-list">My Work</li>
-            </a>
-            <ul
-              onMouseLeave={handleLeave}
-              className={`${
-                hover ? "visible" : "invisible"
-              } absolute top-8 w-full right-0 cursor-pointer`}
-            >
-              <li>Mukuru</li>
-              <li>Tonic</li>
-              <li>Hey Halfway</li>
-              <li>Jim Beam</li>
-              <li>BOS</li>
-            </ul>
-            <li>About</li>
+            <li className="cursor-pointer">Mukuru</li>
+            <li className="cursor-pointer">Tonic</li>
+            <li className="cursor-pointer">Hey-halfway</li>
+            <li className="cursor-pointer">Jim Beam</li>
+            <li className="cursor-pointer">BOS</li>
           </ul>
         </div>
       </div>
