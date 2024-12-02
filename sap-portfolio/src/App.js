@@ -10,8 +10,8 @@ import bos from "./images/home-page-image/bos-1.png";
 
 export default function App() {
   return (
-    <div>
-      <div className="navbar-section p-12">
+    <div className="select-none">
+      <div className="navbar-section p-12 md:p-20 lg:px-40">
         <Navbar />
       </div>
       <div className="main-image-section my-12">
