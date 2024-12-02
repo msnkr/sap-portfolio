@@ -4,7 +4,7 @@ const ImageItem = ({ image, brand, script }) => {
       <div>
         <img
           src={image}
-          className="w-full h-[200px] md:h-[300px] lg:h-[400px]"
+          className="w-full h-[200px] md:h-[300px] lg:h-[500px]"
         />
       </div>
       <div>
