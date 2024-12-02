@@ -76,6 +76,7 @@ const Navbar = () => {
             src={closeIcon}
             className="cursor-pointer"
             onClick={handleClose}
+            alt="close-icon"
           />
         </div>
         <div>

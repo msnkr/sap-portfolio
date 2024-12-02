@@ -23,15 +23,21 @@ const Footer = () => {
           <p>email@company.com</p>
         </div>
         <div>
-          <a>
-            <p className="border-2 border-black rounded-xl py-1 md:w-full w-1/3 mx-auto">
-              Resume
-            </p>
-          </a>
+          <p className="border-2 border-black rounded-xl py-1 md:w-full w-1/3 mx-auto">
+            Resume
+          </p>
         </div>
         <div className="flex justify-center space-x-4 items-center pb-12">
-          <img src={linkedinIcon} className="cursor-pointer" />
-          <img src={behanceIcon} className="cursor-pointer" />
+          <img
+            src={linkedinIcon}
+            className="cursor-pointer"
+            alt="linkedin-icon"
+          />
+          <img
+            src={behanceIcon}
+            className="cursor-pointer"
+            alt="behance-icon"
+          />
         </div>
       </div>
     </div>
