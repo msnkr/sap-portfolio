@@ -10,9 +10,9 @@ const ImageItem = ({ image, brand, script }) => {
         <div className="absolute top-0 left-0 bg-black w-full h-[200px] opacity-30 md:h-[300px]"></div>
       </div>
       <div>
-        <div className="absolute top-1/2 -translate-y-1/2 left-12 text-white">
+        <div className="absolute top-1/2 -translate-y-1/2 left-12 text-white space-y-4">
           <p className="cursor-pointer text-4xl font-semibold">{brand}</p>
-          <p className="text-xl">{script}</p>
+          <p className="text-lg">{script}</p>
         </div>
       </div>
     </div>

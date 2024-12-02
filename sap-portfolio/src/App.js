@@ -15,15 +15,27 @@ export default function App() {
         <Navbar />
       </div>
       <div className="main-image-section my-12">
-        <ImageItem image={mukuru} brand={"Mukuru"} script={"Lorem Ipsum"} />
-        <ImageItem image={tonic} brand={"Tonic"} script={"Lorem Ipsum"} />
+        <ImageItem
+          image={mukuru}
+          brand={"Mukuru"}
+          script={"Unleashing possibilities"}
+        />
+        <ImageItem
+          image={tonic}
+          brand={"Tonic"}
+          script={"Show yourself you care"}
+        />
         <ImageItem
           image={heyHalfway}
           brand={"Hey-Halfway"}
-          script={"Lorem Ipsum"}
+          script={"No jokes"}
         />
-        <ImageItem image={jimBeam} brand={"Jim Beam"} script={"Lorem Ipsum"} />
-        <ImageItem image={bos} brand={"BOS"} script={"Lorem Ipsum"} />
+        <ImageItem
+          image={jimBeam}
+          brand={"Jim Beam"}
+          script={"All together for the music"}
+        />
+        <ImageItem image={bos} brand={"BOS"} script={"Make it BOS"} />
       </div>
       <div className="footer-section">
         <Footer />
