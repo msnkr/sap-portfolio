@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: "Ultra",
         custom: "Montserrat",
       },
     },
