@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between relative">
+      <div className="flex items-center justify-between relative font-custom">
         <div>
           <Logo />
         </div>

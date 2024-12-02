@@ -5,7 +5,7 @@ import behanceIcon from "../images/icon-behance.svg";
 
 const Footer = () => {
   return (
-    <div className="text-center space-y-6 md:flex justify-between items-center md:p-12 lg:px-28">
+    <div className="text-center space-y-6 md:flex justify-between items-center md:p-12 lg:px-28 font-custom">
       <div className="logo">
         <Logo />
       </div>
