@@ -9,12 +9,6 @@ const Navbar = () => {
       </div>
       <div>
         <img src={hamburgerIcon} className="w-10 cursor-pointer" />
-        <div className="relative">
-          <ul className="absolute">
-            <li>My Work</li>
-            <li>My Work</li>
-          </ul>
-        </div>
       </div>
     </div>
   );
