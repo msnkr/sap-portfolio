@@ -8,15 +8,15 @@ import bosLogo from "./images/logo/bos-logo.png";
 export default function App() {
   return (
     <div>
-      <div className="navbar relative px-8 py-8">
+      <div className="navbar relative px-10 py-8">
         <Navbar />
       </div>
       <div className="hero-section">
-        <div className="space-y-6">
-          <p className="w-9/12 text-4xl font-bold tracking-wider leading-8 px-8">
+        <div className="space-y-8">
+          <p className="w-9/12 text-4xl font-bold tracking-wider leading-8 px-10">
             Hi. <br /> I'm Kashia Rees.
           </p>
-          <p className="px-8 text-lg tracking-tighter leading-6 font-custom">
+          <p className="px-10 text-lg tracking-tighter leading-6 font-custom">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </p>
@@ -34,8 +34,8 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="work-section pt-8 space-y-8">
-        <p className="px-8">
+      <div className="work-section pt-8">
+        <p className="px-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -44,7 +44,6 @@ export default function App() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <div></div>
       </div>
     </div>
   );
