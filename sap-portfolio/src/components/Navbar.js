@@ -6,8 +6,8 @@ import { useState } from "react";
 
 const Navbar = () => {
   return (
-    <div className="relative">
-      <div className="absolute top-8 left-8">
+    <div>
+      <div>
         <Logo />
       </div>
       <div>
