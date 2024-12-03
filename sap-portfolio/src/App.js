@@ -17,9 +17,9 @@ export default function App() {
         <Navbar />
       </div>
       <div className="hero-section">
-        <div className="space-y-12 lg:grid grid-cols-2">
-          <div className="mt-12 lg:flex flex-col justify-center">
-            <p className="lg:w-full w-9/12 text-4xl font-bold tracking-wider leading-8 px-10">
+        <div className="lg:grid grid-cols-2">
+          <div className="lg:flex flex-col justify-center">
+            <p className="text-4xl font-bold tracking-wider leading-8 px-10">
               Hi. <br /> I'm Kashia Rees.
             </p>
             <p className="text-lg tracking-tighter leading-6 font-custom">
@@ -37,7 +37,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="work-section pt-8 ">
+      <div className="work-section">
         <div className="text-center">
           <p className="text-2xl font-custom ">Write</p>
           <p className="tracking-tighter leading-6 font-custom">
