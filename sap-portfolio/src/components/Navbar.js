@@ -11,7 +11,7 @@ const Navbar = () => {
       <div>
         <img
           src={hamburgerIcon}
-          className="w-[30px] absolute top-12 right-8 cursor-pointer lg:hidden"
+          className="w-[30px] absolute top-16 right-12 cursor-pointer lg:hidden"
         />
       </div>
     </div>
