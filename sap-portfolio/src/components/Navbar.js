@@ -4,6 +4,20 @@ import closeIcon from "../images/icon-close.svg";
 
 import { useState } from "react";
 
-const Navbar = () => {};
+const Navbar = () => {
+  return (
+    <div className="relative">
+      <div className="absolute top-8 left-8">
+        <Logo />
+      </div>
+      <div>
+        <img
+          src={hamburgerIcon}
+          className="w-[30px] absolute top-12 right-8 cursor-pointer"
+        />
+      </div>
+    </div>
+  );
+};
 
 export default Navbar;

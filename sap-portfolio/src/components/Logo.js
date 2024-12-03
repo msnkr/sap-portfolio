@@ -1,6 +1,6 @@
 const Logo = () => {
   return (
-    <div className="capitalize tracking-widest font-custom">
+    <div className="capitalize font-custom">
       <div>
         <p className="text-3xl cursor-pointer font-bold">kashia rees</p>
       </div>
