@@ -15,7 +15,7 @@ export default function App() {
           <p className="w-9/12 text-4xl font-bold tracking-wider leading-8 px-8">
             Hi. <br /> I'm Kashia Rees.
           </p>
-          <p className="px-8 text-xl tracking-tighter leading-6 font-custom">
+          <p className="px-8 text-lg tracking-tighter leading-6 font-custom">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </p>
@@ -28,7 +28,17 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="work-section"></div>
+      <div className="work-section pt-8 space-y-8">
+        <p className="px-8">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
     </div>
   );
 }
