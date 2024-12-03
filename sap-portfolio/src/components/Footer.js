@@ -10,7 +10,7 @@ const Footer = () => {
         <Logo />
       </div>
       <div>
-        <ul className="text-center space-y-1 font-custom tracking-tight">
+        <ul className="text-center font-custom tracking-tight">
           <li>Tonic</li>
           <li>Noobeing</li>
           <li>BOS</li>
@@ -21,7 +21,7 @@ const Footer = () => {
         <Logo />
       </div>
       <div>
-        <div className="space-y-6 lg:space-y-2">
+        <div className="">
           <p className="text-xl font-custom tracking-tight">
             someone@gmail.com
           </p>
@@ -31,7 +31,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center mt-6 lg:mt-2 space-x-6">
+        <div className="flex justify-center">
           <img src={linkedinIcon} className="cursor-pointer" />
           <img src={behanceIcon} className="cursor-pointer" />
         </div>

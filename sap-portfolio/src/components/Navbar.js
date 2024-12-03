@@ -2,8 +2,6 @@ import Logo from "./Logo";
 import hamburgerIcon from "../images/icon-hamburger.svg";
 import closeIcon from "../images/icon-close.svg";
 
-import { useState } from "react";
-
 const Navbar = () => {
   return (
     <div>
@@ -13,7 +11,7 @@ const Navbar = () => {
       <div>
         <img
           src={hamburgerIcon}
-          className="w-[30px] absolute top-12 right-8 cursor-pointer"
+          className="w-[30px] absolute top-12 right-8 cursor-pointer lg:hidden"
         />
       </div>
     </div>
