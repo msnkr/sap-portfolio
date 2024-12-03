@@ -5,7 +5,7 @@ import behanceIcon from "../images/icon-behance.svg";
 
 const Footer = () => {
   return (
-    <div className="lg:flex justify-between items-center">
+    <div className="lg:flex justify-between items-center lg:px-20 py-20">
       <div className="block lg:hidden">
         <Logo />
       </div>
