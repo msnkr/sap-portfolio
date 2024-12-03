@@ -57,19 +57,26 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="work-section">
-        <div>
-          <p className="text-2xl font-custom mt-20 px-10 lg:px-40">Write</p>
-          <p className="tracking-tighter leading-6 font-custom mt-4 px-10 lg:px-40">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-          </p>
+      <div className="work-section lg:mt-20">
+        <div className="lg:grid grid-cols-2">
+          <div className="hidden lg:block">
+            <ImageItem image={newPlanet1} />
+          </div>
+          <div>
+            <p className="lg:flex flex-col justify-center text-2xl font-custom mt-20 lg:mt-0 px-10 lg:px-20">
+              Write
+            </p>
+            <p className="tracking-tighter leading-6 font-custom mt-4 px-10 lg:px-20">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+            </p>
+          </div>
         </div>
         <p className="text-2xl font-custom mt-20 px-10">Previous work</p>
         <div className="md:grid grid-cols-2 lg:grid-cols-3 mt-4 lg:gap-4">
@@ -82,7 +89,7 @@ export default function App() {
         </div>
       </div>
       <div>
-        <div className="mt-20 px-10 lg:px-40">
+        <div className="mt-20 px-10 lg:px-20">
           <p className="text-2xl font-custom">About</p>
           <p className="tracking-tighter leading-6 font-custom mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
