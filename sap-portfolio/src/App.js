@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import ImageItem from "./components/ImageItem";
 import Footer from "./components/Footer";
+import VideoPlayer from "./components/VideoPlayer";
 
 import bos1 from "./images/home-page-image/bos-1.jpeg";
 import bos2 from "./images/home-page-image/bos-2.png";
@@ -15,22 +16,10 @@ import csa1 from "./images/home-page-image/csa-1.png";
 import aynjil1 from "./images/home-page-image/aynjil-1.png";
 import entelect1 from "./images/home-page-image/entelect-1.png";
 import entelect2 from "./images/home-page-image/entelect-2.png";
-import video from "./images/home-page-image/Tonic_social_28_July_1x1.mp4";
+import tonicVideo from "./images/home-page-image/Tonic_social_28_July_1x1.mp4";
+import heyHalfwayVideo from "./images/home-page-image/HH_Stache It (4x5).mp4";
 
 export default function App() {
-  const VideoPlayer = ({ videoSrc }) => {
-    return (
-      <div>
-        {" "}
-        <video width="640" height="360" controls>
-          {" "}
-          <source src={videoSrc} type="video/mp4" /> Your browser does not
-          support the video tag.{" "}
-        </video>{" "}
-      </div>
-    );
-  };
-
   return (
     <div className="">
       <div className="navbar relative px-8 py-12 lg:px-20">
@@ -48,12 +37,7 @@ export default function App() {
             </p>
           </div>
           <div className="relative">
-            <div className="bg-black w-full h-64 absolute top-0 left-0 opacity-25"></div>
-            <img
-              src={bos2}
-              className="w-full h-64 object-cover"
-              alt="hero-image"
-            />
+            <ImageItem image={bos2} />
           </div>
         </div>
       </div>
@@ -103,15 +87,7 @@ export default function App() {
           </p>
         </div>
         <div className="mt-20 flex justify-center">
-          <VideoPlayer videoSrc={video} />
-        </div>
-        <div className="md:grid grid-cols-2 lg:grid-cols-3 lg:gap-4 mt-40 hidden">
-          <ImageItem image={newPlanet2} script={"New Planet"} />
-          <ImageItem image={tonic2} script={"Tonic"} />
-          <ImageItem image={newBeing2} script={"Noobeing"} />
-          <ImageItem image={newPlanet3} script={"New Planet"} />
-          <ImageItem image={entelect2} script={"Entelect"} />
-          <ImageItem image={aynjil1} script={"Aynjil"} />
+          <VideoPlayer videoSrc={heyHalfwayVideo} />
         </div>
         <div className="text-center mt-12">
           <Footer />
