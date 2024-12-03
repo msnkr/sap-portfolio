@@ -23,10 +23,14 @@ export default function App() {
           <div className="relative">
             <div className="absolute bottom-4 left-4 text-white text-4xl z-50 font-bold">
               <p>MAKE-IT-BOS</p>
-              <img src={bosLogo} className="w-12" />
+              <img src={bosLogo} className="w-12" alt="BOS-logo" />
             </div>
             <div className="bg-black w-full h-64 absolute top-0 left-0 opacity-25"></div>
-            <img src={bos} className="w-full h-64 object-cover" />
+            <img
+              src={bos}
+              className="w-full h-64 object-cover"
+              alt="hero-image"
+            />
           </div>
         </div>
       </div>
@@ -40,6 +44,7 @@ export default function App() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <div></div>
       </div>
     </div>
   );
