@@ -1,6 +1,5 @@
 import Logo from "./Logo";
 import hamburgerIcon from "../images/icon-hamburger.svg";
-import closeIcon from "../images/icon-close.svg";
 
 const Navbar = () => {
   return (
@@ -12,6 +11,7 @@ const Navbar = () => {
         <img
           src={hamburgerIcon}
           className="w-[30px] absolute top-16 right-12 cursor-pointer lg:hidden"
+          alt="hamburger-icon"
         />
       </div>
     </div>
