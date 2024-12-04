@@ -24,6 +24,8 @@ import game from "./images/more-work-section/game.mov";
 import cricketSa from "./images/more-work-section/cricket-sa.mp4";
 import oneDayOnly from "./images/more-work-section/one-day-only.mov";
 
+import { useState } from "react";
+
 export default function App() {
   return (
     <div className="">

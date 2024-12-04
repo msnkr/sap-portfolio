@@ -2,7 +2,7 @@ import VideoPlayer from "../components/VideoPlayer";
 
 const Work = ({ video, title, content }) => {
   return (
-    <div className="mt-20 lg:grid grid-cols-2 lg:flex items-center">
+    <div className="mt-20 lg:grid grid-cols-2 items-center">
       <div className="flex justify-center">
         <VideoPlayer videoSrc={video} />
       </div>
