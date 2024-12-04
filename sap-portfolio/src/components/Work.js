@@ -2,8 +2,8 @@ import VideoPlayer from "../components/VideoPlayer";
 
 const Work = ({ video, title, content }) => {
   return (
-    <div className="mt-20">
-      <div>
+    <div className="mt-20 lg:grid grid-cols-2 lg:flex items-center">
+      <div className="flex justify-center">
         <VideoPlayer videoSrc={video} />
       </div>
       <div className="text-center mt-12 px-12">
@@ -13,11 +13,11 @@ const Work = ({ video, title, content }) => {
         <div>
           <p className="mt-5">{content}</p>
         </div>
-      </div>
-      <div>
-        <p className="text-lg font-bold cursor-pointer text-center mt-12">
-          View More
-        </p>
+        <div>
+          <p className="text-lg font-bold cursor-pointer text-center mt-12">
+            View More
+          </p>
+        </div>
       </div>
     </div>
   );

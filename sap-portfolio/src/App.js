@@ -14,7 +14,7 @@ import heyHalfwayVideo from "./images/heyhalfway.mp4";
 
 export default function App() {
   return (
-    <div>
+    <div className="">
       <div className="navbar relative px-8 py-12">
         <Navbar />
       </div>
