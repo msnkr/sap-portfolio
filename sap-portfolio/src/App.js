@@ -2,7 +2,11 @@ import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import VideoPlayer from "./components/VideoPlayer";
 
-// import jimBeamData from "./data/jim-beam.json";
+import jimBeamData from "./data/jim-beam.json";
+import jimBeamVideo from "./images/jim-beam.mp4";
+
+import mukuruVideo from "./images/mukuru.mov";
+import mukuruData from "./data/mukuru.json";
 
 import bosData from "./data/bos.json";
 import bosVideo from "./images/bos.mp4";
@@ -50,6 +54,16 @@ export default function App() {
       </div>
       <div className="work-section">
         <Work
+          video={jimBeamVideo}
+          title={jimBeamData.title}
+          content={jimBeamData.content}
+        />
+        <Work
+          video={mukuruVideo}
+          title={mukuruData.title}
+          content={mukuruData.content}
+        />
+        <Work
           video={bosVideo}
           title={bosData.title}
           content={bosData.content}
@@ -66,7 +80,7 @@ export default function App() {
         />
       </div>
       <div className="more-work-section mt-20">
-        <div className="more-work-section-1 lg:grid grid-cols-3 flex justify-center items-center gap-4">
+        <div className="more-work-section-1 lg:grid grid-cols-3 justify-center items-center gap-4">
           <div>
             <VideoPlayer videoSrc={newPlanet} />
           </div>
@@ -77,7 +91,7 @@ export default function App() {
             <img src={entelect} />
           </div>
         </div>
-        <div className="more-work-section-2 lg:grid grid-cols-3 flex justify-center items-center gap-4 ">
+        <div className="more-work-section-2 lg:grid grid-cols-3 justify-center items-center gap-4 ">
           <div>
             <VideoPlayer videoSrc={game} />
           </div>
