@@ -14,6 +14,11 @@ const Work = ({ video, title, content }) => {
           <p className="mt-5">{content}</p>
         </div>
       </div>
+      <div>
+        <p className="text-lg font-bold cursor-pointer text-center mt-12">
+          View More
+        </p>
+      </div>
     </div>
   );
 };
