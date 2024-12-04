@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
+import VideoPlayer from "./components/VideoPlayer";
 
 // import jimBeamData from "./data/jim-beam.json";
 
@@ -11,6 +12,13 @@ import tonicVideo from "./images/tonic.mp4";
 
 import heyHalfwayData from "./data/hey-halfway.json";
 import heyHalfwayVideo from "./images/heyhalfway.mp4";
+
+import newPlanet from "./images/more-work-section/new-planet.mp4";
+import noobeing from "./images/more-work-section/noobeing.png";
+import entelect from "./images/more-work-section/entelect.png";
+import game from "./images/more-work-section/game.mov";
+import cricketSa from "./images/more-work-section/cricket-sa.mp4";
+import oneDayOnly from "./images/more-work-section/one-day-only.mov";
 
 export default function App() {
   return (
@@ -57,7 +65,30 @@ export default function App() {
           content={heyHalfwayData.content}
         />
       </div>
-      <div className="more-work-section"></div>
+      <div className="more-work-section mt-20">
+        <div className="more-work-section-1 lg:grid grid-cols-3 flex justify-center items-center gap-4">
+          <div>
+            <VideoPlayer videoSrc={newPlanet} />
+          </div>
+          <div>
+            <img src={noobeing} />
+          </div>
+          <div>
+            <img src={entelect} />
+          </div>
+        </div>
+        <div className="more-work-section-2 lg:grid grid-cols-3 flex justify-center items-center gap-4 ">
+          <div>
+            <VideoPlayer videoSrc={game} />
+          </div>
+          <div>
+            <VideoPlayer videoSrc={cricketSa} />
+          </div>
+          <div>
+            <VideoPlayer videoSrc={oneDayOnly} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
