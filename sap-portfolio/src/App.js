@@ -3,26 +3,14 @@ import Work from "./components/Work";
 import VideoPlayer from "./components/VideoPlayer";
 
 import jimBeamData from "./data/jim-beam.json";
-import jimBeamVideo from "./images/jim-beam.mp4";
 
-import mukuruVideo from "./images/mukuru.mov";
 import mukuruData from "./data/mukuru.json";
 
 import bosData from "./data/bos.json";
-import bosVideo from "./images/bos.mp4";
 
 import tonicData from "./data/tonic.json";
-import tonicVideo from "./images/tonic.mp4";
 
 import heyHalfwayData from "./data/hey-halfway.json";
-import heyHalfwayVideo from "./images/heyhalfway.mp4";
-
-import newPlanet from "./images/more-work-section/new-planet.mp4";
-import noobeing from "./images/more-work-section/noobeing.png";
-import entelect from "./images/more-work-section/entelect.png";
-import game from "./images/more-work-section/game.mov";
-import cricketSa from "./images/more-work-section/cricket-sa.mp4";
-import oneDayOnly from "./images/more-work-section/one-day-only.mov";
 
 import { useState } from "react";
 
@@ -55,56 +43,13 @@ export default function App() {
         </p>
       </div>
       <div className="work-section">
-        <Work
-          video={jimBeamVideo}
-          title={jimBeamData.title}
-          content={jimBeamData.content}
-        />
-        <Work
-          video={mukuruVideo}
-          title={mukuruData.title}
-          content={mukuruData.content}
-        />
-        <Work
-          video={bosVideo}
-          title={bosData.title}
-          content={bosData.content}
-        />
-        <Work
-          video={tonicVideo}
-          title={tonicData.title}
-          content={tonicData.content}
-        />
-        <Work
-          video={heyHalfwayVideo}
-          title={heyHalfwayData.title}
-          content={heyHalfwayData.content}
-        />
+        <Work title={jimBeamData.title} content={jimBeamData.content} />
+        <Work title={mukuruData.title} content={mukuruData.content} />
+        <Work title={bosData.title} content={bosData.content} />
+        <Work title={tonicData.title} content={tonicData.content} />
+        <Work title={heyHalfwayData.title} content={heyHalfwayData.content} />
       </div>
-      <div className="more-work-section mt-20">
-        <div className="more-work-section-1 lg:grid grid-cols-3 justify-center items-center gap-4">
-          <div>
-            <VideoPlayer videoSrc={newPlanet} />
-          </div>
-          <div>
-            <img src={noobeing} />
-          </div>
-          <div>
-            <img src={entelect} />
-          </div>
-        </div>
-        <div className="more-work-section-2 lg:grid grid-cols-3 justify-center items-center gap-4 ">
-          <div>
-            <VideoPlayer videoSrc={game} />
-          </div>
-          <div>
-            <VideoPlayer videoSrc={cricketSa} />
-          </div>
-          <div>
-            <VideoPlayer videoSrc={oneDayOnly} />
-          </div>
-        </div>
-      </div>
+      <div className="more-work-section mt-20"></div>
     </div>
   );
 }
