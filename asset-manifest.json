@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sap-portfolio/static/css/main.35739d9e.css",
-    "main.js": "/sap-portfolio/static/js/main.f60330f5.js",
+    "main.js": "/sap-portfolio/static/js/main.b926789c.js",
     "static/js/453.8af649ca.chunk.js": "/sap-portfolio/static/js/453.8af649ca.chunk.js",
     "static/media/noobeing.png": "/sap-portfolio/static/media/noobeing.8516d40f5f3a3b652cf6.png",
     "static/media/one-day-only.png": "/sap-portfolio/static/media/one-day-only.3b9f83daa7019424a093.png",
@@ -19,11 +19,11 @@
     "static/media/icons-linkedin.svg": "/sap-portfolio/static/media/icons-linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
     "static/media/icon-hamburger.svg": "/sap-portfolio/static/media/icon-hamburger.5083b089ffcfb28332bb1e2eb4997de3.svg",
     "main.35739d9e.css.map": "/sap-portfolio/static/css/main.35739d9e.css.map",
-    "main.f60330f5.js.map": "/sap-portfolio/static/js/main.f60330f5.js.map",
+    "main.b926789c.js.map": "/sap-portfolio/static/js/main.b926789c.js.map",
     "453.8af649ca.chunk.js.map": "/sap-portfolio/static/js/453.8af649ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35739d9e.css",
-    "static/js/main.f60330f5.js"
+    "static/js/main.b926789c.js"
   ]
 }
