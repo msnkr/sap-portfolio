@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
+import ImageComponent from "./components/ImageComponent";
+import Footer from "./components/Footer";
 
 import jimBeamData from "./data/jim-beam.json";
 import jimBeamImage from "./images/jim-beam.png";
@@ -15,6 +17,13 @@ import tonicImage from "./images/tonic.png";
 
 import heyHalfwayData from "./data/hey-halfway.json";
 import heyHalfwayImage from "./images/hey-halfway.png";
+
+import cricketSaImage from "./images/cricket-sa.png";
+import entelectImage from "./images/entelect.png";
+import newPlanetImage from "./images/new-planet.png";
+import noobeingImage from "./images/noobeing.png";
+import oneDayOnlyImage from "./images/one-day-only.png";
+import gameImage from "./images/game.png";
 
 export default function App() {
   return (
@@ -77,9 +86,17 @@ export default function App() {
             More Work
           </p>
         </div>
-        <div>
-          <img src={} />
+        <div className="mt-5 grid grid-cols-2">
+          <ImageComponent image={cricketSaImage} />
+          <ImageComponent image={entelectImage} />
+          <ImageComponent image={newPlanetImage} />
+          <ImageComponent image={noobeingImage} />
+          <ImageComponent image={oneDayOnlyImage} />
+          <ImageComponent image={gameImage} />
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
