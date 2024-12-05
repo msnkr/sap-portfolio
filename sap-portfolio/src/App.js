@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import LeftWork from "./components/LeftWork";
+import RightWork from "./components/RightWork";
 import ImageComponent from "./components/ImageComponent";
 import Footer from "./components/Footer";
 
@@ -56,7 +57,20 @@ export default function App() {
           Jump to the work
         </p>
       </div>
-      <div className="work-section"></div>
+      <div className="work-section">
+        <LeftWork
+          image={jimBeamImage}
+          title={jimBeamData.title}
+          contentChallenge={jimBeamData.contentChallenge}
+          contentSolution={jimBeamData.contentSolution}
+        />
+        <RightWork
+          image={mukuruImage}
+          title={mukuruData.title}
+          contentChallenge={mukuruData.contentChallenge}
+          contentSolution={jimBeamData.contentSolution}
+        />
+      </div>
       <div className="more-work-section mt-20">
         <div>
           <p className="text-xl font-bold cursor-pointer text-center">

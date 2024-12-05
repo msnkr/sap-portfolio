@@ -1,9 +1,6 @@
-const LeftWork = ({ image, title, contentChallenge, contentSolution }) => {
+const RightWork = ({ image, title, contentChallenge, contentSolution }) => {
   return (
     <div>
-      <div>
-        <img src={image} />
-      </div>
       <div>
         <div>
           <p>{title}</p>
@@ -15,8 +12,11 @@ const LeftWork = ({ image, title, contentChallenge, contentSolution }) => {
           <p>The Solution: {contentSolution}</p>
         </div>
       </div>
+      <div>
+        <img src={image} />
+      </div>
     </div>
   );
 };
 
-export default LeftWork;
+export default RightWork;
