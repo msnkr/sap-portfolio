@@ -10,7 +10,7 @@ const LeftWork = ({ image, title, contentChallenge, contentSolution }) => {
       </div>
       <div className="text-center px-12 lg:px-12">
         <div className="mt-12">
-          <p className="text-4xl font-bold">{title}</p>
+          <p className="text-4xl font-bold font-fontTitle">{title}</p>
         </div>
         <div className="mt-5">
           <p>

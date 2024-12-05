@@ -28,13 +28,15 @@ import gameImage from "./images/game.png";
 
 export default function App() {
   return (
-    <div className="">
+    <div className="font-fontContent">
       <div className="navbar relative px-8 py-12 lg:px-20 xl:px-40">
         <Navbar />
       </div>
       <div className="opening-section p-12 text-center">
         <div>
-          <p className="text-4xl font-bold">Hello. I'm Kashia!</p>
+          <p className="text-4xl font-bold font-fontTitle">
+            Hello. I'm Kashia!
+          </p>
         </div>
         <p className="mt-5 lg:px-40">
           I’m a mid-weight copywriter with over 7 years of experience in
@@ -50,7 +52,7 @@ export default function App() {
           to solv problems. Thank you for taking the time to check out my work.
           Now, let’s get to the goods.
         </p>
-        <p className="mt-12 font-bold text-lg cursor-pointer">
+        <p className="mt-12 font-bold text-lg cursor-pointer font-fontTitle">
           Jump to the work
         </p>
       </div>
@@ -88,7 +90,7 @@ export default function App() {
       </div>
       <div className="more-work-section mt-20">
         <div>
-          <p className="text-xl font-bold cursor-pointer text-center">
+          <p className="text-3xl font-bold cursor-pointer text-center font-fontTitle">
             More Work
           </p>
         </div>

@@ -3,7 +3,7 @@ const RightWork = ({ image, title, contentChallenge, contentSolution }) => {
     <div className="mt-12 lg:grid grid-cols-2 items-center">
       <div className="text-center px-12 lg:px-12">
         <div>
-          <p className="text-4xl font-bold">{title}</p>
+          <p className="text-4xl font-bold font-fontTitle">{title}</p>
         </div>
         <div className="mt-5">
           <span className="font-bold">The Challenge:</span> {contentChallenge}
