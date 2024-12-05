@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Work from "./components/Work";
+import LeftWork from "./components/LeftWork";
 import ImageComponent from "./components/ImageComponent";
 import Footer from "./components/Footer";
 
@@ -56,38 +56,7 @@ export default function App() {
           Jump to the work
         </p>
       </div>
-      <div className="work-section">
-        <Work
-          isReversed={false}
-          image={jimBeamImage}
-          title={jimBeamData.title}
-          content={jimBeamData.content}
-        />
-        <Work
-          isReversed={true}
-          image={mukuruImage}
-          title={mukuruData.title}
-          content={mukuruData.content}
-        />
-        <Work
-          isReversed={false}
-          image={bosImage}
-          title={bosData.title}
-          content={bosData.content}
-        />
-        <Work
-          isReversed={true}
-          image={tonicImage}
-          title={tonicData.title}
-          content={tonicData.content}
-        />
-        <Work
-          isReversed={false}
-          image={heyHalfwayImage}
-          title={heyHalfwayData.title}
-          content={heyHalfwayData.content}
-        />
-      </div>
+      <div className="work-section"></div>
       <div className="more-work-section mt-20">
         <div>
           <p className="text-xl font-bold cursor-pointer text-center">
