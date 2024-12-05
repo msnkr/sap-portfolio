@@ -3,7 +3,7 @@ const LeftWork = ({ image, title, contentChallenge, contentSolution }) => {
     <div className="mt-12 lg:grid grid-cols-2 items-center">
       <div>
         <img
-          className="w-full h-56 object-cover lg:h-[500px]"
+          className="w-full h-56 object-cover md:h-[400px] lg:h-[500px]"
           src={image}
           alt={`${title}-image`}
         />

@@ -92,7 +92,7 @@ export default function App() {
             More Work
           </p>
         </div>
-        <div className="mt-5 grid grid-cols-2 lg:grid-cols-3">
+        <div className="mt-5 grid grid-cols-2">
           <ImageComponent image={cricketSaImage} />
           <ImageComponent image={entelectImage} />
           <ImageComponent image={newPlanetImage} />

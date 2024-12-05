@@ -14,7 +14,7 @@ const RightWork = ({ image, title, contentChallenge, contentSolution }) => {
       </div>
       <div className="mt-12">
         <img
-          className="w-full h-56 object-cover lg:h-[500px]"
+          className="w-full h-56 object-cover md:h-[400px] lg:h-[500px]"
           src={image}
           alt={`${title}-image`}
         />
