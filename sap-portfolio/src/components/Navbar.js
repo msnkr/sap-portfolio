@@ -35,11 +35,11 @@ const Navbar = () => {
                 : "invisible opacity-0 -translate-x-1/2"
             } absolute top-12 right-20 w-96 text-end duration-500`}
           >
-            <li className="cursor-pointer">Jim Beam</li>
-            <li className="cursor-pointer">Mukuru</li>
-            <li className="cursor-pointer">Bos</li>
-            <li className="cursor-pointer">Tonic</li>
-            <li className="cursor-pointer">Hey Halfway</li>
+            <li className="cursor-pointer font-semibold">Jim Beam</li>
+            <li className="cursor-pointer font-semibold">Mukuru</li>
+            <li className="cursor-pointer font-semibold">Bos</li>
+            <li className="cursor-pointer font-semibold">Tonic</li>
+            <li className="cursor-pointer font-semibold">Hey Halfway</li>
           </ul>
           <li className="text-lg cursor-pointer">About</li>
         </ul>

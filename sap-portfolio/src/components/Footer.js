@@ -10,7 +10,7 @@ const Footer = () => {
         <Logo />
       </div>
       <div className="mt-5 lg:mt-0">
-        <ul className="text-center space-y-1 text-lg">
+        <ul className="text-center space-y-1 font-semibold">
           <li className="cursor-pointer">Jim Beam</li>
           <li className="cursor-pointer">Mukuru</li>
           <li className="cursor-pointer">Bos</li>
