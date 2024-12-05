@@ -8,7 +8,7 @@ const RightWork = ({ image, title, contentChallenge, contentSolution }) => {
         <div className="mt-5">
           <span className="font-bold">The Challenge:</span> {contentChallenge}
         </div>
-        <div>
+        <div className="mt-4">
           <span className="font-bold">The Solution:</span> {contentSolution}
         </div>
       </div>

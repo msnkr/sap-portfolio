@@ -18,7 +18,7 @@ const LeftWork = ({ image, title, contentChallenge, contentSolution }) => {
           </p>
         </div>
         <div>
-          <p>
+          <p className="mt-4">
             <span className="font-bold">The Solution:</span> {contentSolution}
           </p>
         </div>
