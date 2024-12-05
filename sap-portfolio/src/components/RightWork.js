@@ -1,19 +1,19 @@
 const RightWork = ({ image, title, contentChallenge, contentSolution }) => {
   return (
-    <div>
-      <div>
+    <div className="mt-12">
+      <div className="text-center px-2">
         <div>
-          <p>{title}</p>
+          <p className="text-4xl font-bold">{title}</p>
+        </div>
+        <div className="mt-5">
+          <span className="font-bold">The Challenge:</span> {contentChallenge}
         </div>
         <div>
-          <p>The Challenge: {contentChallenge}</p>
-        </div>
-        <div>
-          <p>The Solution: {contentSolution}</p>
+          <span className="font-bold">The Solution:</span> {contentSolution}
         </div>
       </div>
-      <div>
-        <img src={image} />
+      <div className="mt-12">
+        <img className="w-full h-56 object-cover" src={image} />
       </div>
     </div>
   );

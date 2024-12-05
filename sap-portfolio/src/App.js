@@ -68,7 +68,25 @@ export default function App() {
           image={mukuruImage}
           title={mukuruData.title}
           contentChallenge={mukuruData.contentChallenge}
-          contentSolution={jimBeamData.contentSolution}
+          contentSolution={mukuruData.contentSolution}
+        />
+        <LeftWork
+          image={bosImage}
+          title={bosData.title}
+          contentChallenge={bosData.contentChallenge}
+          contentSolution={bosData.contentSolution}
+        />
+        <RightWork
+          image={tonicImage}
+          title={tonicData.title}
+          contentChallenge={tonicData.contentChallenge}
+          contentSolution={tonicData.contentSolution}
+        />
+        <LeftWork
+          image={heyHalfwayImage}
+          title={heyHalfwayData.title}
+          contentChallenge={heyHalfwayData.contentChallenge}
+          contentSolution={heyHalfwayData.contentSolution}
         />
       </div>
       <div className="more-work-section mt-20">
