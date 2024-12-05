@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
-import VideoPlayer from "./components/VideoPlayer";
 
 import jimBeamData from "./data/jim-beam.json";
 
@@ -11,8 +10,6 @@ import bosData from "./data/bos.json";
 import tonicData from "./data/tonic.json";
 
 import heyHalfwayData from "./data/hey-halfway.json";
-
-import { useState } from "react";
 
 export default function App() {
   return (
