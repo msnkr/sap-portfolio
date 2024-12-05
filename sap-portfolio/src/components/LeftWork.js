@@ -8,7 +8,7 @@ const LeftWork = ({ image, title, contentChallenge, contentSolution }) => {
           alt={`${title}-image`}
         />
       </div>
-      <div className="text-center px-12 lg:px-12">
+      <div className="lg:text-end text-center px-12 lg:px-12">
         <div className="mt-12">
           <p className="text-4xl font-bold font-fontTitle">{title}</p>
         </div>
