@@ -28,8 +28,8 @@ const Footer = () => {
           </button>
         </div>
         <div className="flex justify-center mt-4 mb-8">
-          <img src={linkedinIcon} />
-          <img src={behanceIcon} />
+          <img src={linkedinIcon} alt="linkedin-icon" />
+          <img src={behanceIcon} alt="behance-icon" />
         </div>
       </div>
     </div>
