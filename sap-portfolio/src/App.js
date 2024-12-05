@@ -2,14 +2,19 @@ import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 
 import jimBeamData from "./data/jim-beam.json";
+import jimBeamImage from "./images/jim-beam.png";
 
 import mukuruData from "./data/mukuru.json";
+import mukuruImage from "./images/mukuru.png";
 
 import bosData from "./data/bos.json";
+import bosImage from "./images/bos.png";
 
 import tonicData from "./data/tonic.json";
+import tonicImage from "./images/tonic.png";
 
 import heyHalfwayData from "./data/hey-halfway.json";
+import heyHalfwayImage from "./images/hey-halfway.png";
 
 export default function App() {
   return (
@@ -40,13 +45,42 @@ export default function App() {
         </p>
       </div>
       <div className="work-section">
-        <Work title={jimBeamData.title} content={jimBeamData.content} />
-        <Work title={mukuruData.title} content={mukuruData.content} />
-        <Work title={bosData.title} content={bosData.content} />
-        <Work title={tonicData.title} content={tonicData.content} />
-        <Work title={heyHalfwayData.title} content={heyHalfwayData.content} />
+        <Work
+          image={jimBeamImage}
+          title={jimBeamData.title}
+          content={jimBeamData.content}
+        />
+        <Work
+          image={mukuruImage}
+          title={mukuruData.title}
+          content={mukuruData.content}
+        />
+        <Work
+          image={bosImage}
+          title={bosData.title}
+          content={bosData.content}
+        />
+        <Work
+          image={tonicImage}
+          title={tonicData.title}
+          content={tonicData.content}
+        />
+        <Work
+          image={heyHalfwayImage}
+          title={heyHalfwayData.title}
+          content={heyHalfwayData.content}
+        />
       </div>
-      <div className="more-work-section mt-20"></div>
+      <div className="more-work-section mt-20">
+        <div>
+          <p className="text-xl font-bold cursor-pointer text-center">
+            More Work
+          </p>
+        </div>
+        <div>
+          <img src={} />
+        </div>
+      </div>
     </div>
   );
 }
