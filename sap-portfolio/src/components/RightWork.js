@@ -1,7 +1,7 @@
 const RightWork = ({ image, title, contentChallenge, contentSolution }) => {
   return (
     <div className="mt-12 lg:grid grid-cols-2 items-center">
-      <div className="text-center px-2 lg:px-12">
+      <div className="text-center px-12 lg:px-12">
         <div>
           <p className="text-4xl font-bold">{title}</p>
         </div>
@@ -13,7 +13,11 @@ const RightWork = ({ image, title, contentChallenge, contentSolution }) => {
         </div>
       </div>
       <div className="mt-12">
-        <img className="w-full h-56 object-cover lg:h-[500px]" src={image} />
+        <img
+          className="w-full h-56 object-cover lg:h-[500px]"
+          src={image}
+          alt={`${title}-image`}
+        />
       </div>
     </div>
   );

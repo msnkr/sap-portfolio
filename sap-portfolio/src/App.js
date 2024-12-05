@@ -26,10 +26,7 @@ import noobeingImage from "./images/noobeing.png";
 import oneDayOnlyImage from "./images/one-day-only.png";
 import gameImage from "./images/game.png";
 
-import { useState } from "react";
 export default function App() {
-  const [isReversed, setIsReversed] = useState(false);
-
   return (
     <div className="">
       <div className="navbar relative px-8 py-12">
@@ -39,7 +36,7 @@ export default function App() {
         <div>
           <p className="text-4xl font-bold">Hello. I'm Kashia!</p>
         </div>
-        <p className="mt-5">
+        <p className="mt-5 lg:px-40">
           I’m a mid-weight copywriter with over 7 years of experience in
           writing. I graduated with an honours in Film and TV from Wits and
           started my career in script writing. I then found my love for
