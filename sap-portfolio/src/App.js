@@ -29,7 +29,7 @@ import gameImage from "./images/game.png";
 export default function App() {
   return (
     <div className="">
-      <div className="navbar relative px-8 py-12">
+      <div className="navbar relative px-8 py-12 lg:px-20 xl:px-40">
         <Navbar />
       </div>
       <div className="opening-section p-12 text-center">
