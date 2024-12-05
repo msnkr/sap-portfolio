@@ -25,7 +25,10 @@ import noobeingImage from "./images/noobeing.png";
 import oneDayOnlyImage from "./images/one-day-only.png";
 import gameImage from "./images/game.png";
 
+import { useState } from "react";
 export default function App() {
+  const [isReversed, setIsReversed] = useState(false);
+
   return (
     <div className="">
       <div className="navbar relative px-8 py-12">
@@ -55,26 +58,31 @@ export default function App() {
       </div>
       <div className="work-section">
         <Work
+          isReversed={false}
           image={jimBeamImage}
           title={jimBeamData.title}
           content={jimBeamData.content}
         />
         <Work
+          isReversed={true}
           image={mukuruImage}
           title={mukuruData.title}
           content={mukuruData.content}
         />
         <Work
+          isReversed={false}
           image={bosImage}
           title={bosData.title}
           content={bosData.content}
         />
         <Work
+          isReversed={true}
           image={tonicImage}
           title={tonicData.title}
           content={tonicData.content}
         />
         <Work
+          isReversed={false}
           image={heyHalfwayImage}
           title={heyHalfwayData.title}
           content={heyHalfwayData.content}
