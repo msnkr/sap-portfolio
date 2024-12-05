@@ -34,7 +34,7 @@ export default function App() {
       </div>
       <div className="opening-section p-12 text-center">
         <div>
-          <p className="text-4xl font-bold font-fontTitle mt-10">
+          <p className="text-4xl font-bold font-fontTitle mt-24">
             Hello. I'm Kashia!
           </p>
         </div>

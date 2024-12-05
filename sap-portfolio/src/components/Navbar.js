@@ -3,10 +3,17 @@ import hamburgerIcon from "../images/icon-hamburger.svg";
 
 import { useState } from "react";
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
   const [subMenu, setSubMenu] = useState(false);
 
-  const handleClick = () => {
+  const handleClickSubMenu = () => {
     setSubMenu((prev) => {
+      return !prev;
+    });
+  };
+
+  const handleClickNavbar = () => {
+    setNav((prev) => {
       return !prev;
     });
   };
@@ -21,11 +28,36 @@ const Navbar = () => {
           src={hamburgerIcon}
           className="w-[30px] absolute top-16 right-12 cursor-pointer md:hidden"
           alt="hamburger-icon"
+          onClick={handleClickNavbar}
         />
       </div>
-      <div className="hidden md:block">
+      <div className={`${nav ? "block" : "hidden"} mobile-navbar`}>
+        <ul className="absolute top-28 right-12 text-end">
+          <li className="cursor-pointer" onClick={handleClickSubMenu}>
+            My Work
+          </li>
+          <ul
+            className={`${
+              subMenu
+                ? "visible opacity-100 translate-x-0"
+                : "invisible opacity-0 -translate-x-1/2"
+            } absolute top-0 right-24 duration-500`}
+          >
+            <li className="cursor-pointer font-semibold">Jim Beam</li>
+            <li className="cursor-pointer font-semibold">Mukuru</li>
+            <li className="cursor-pointer font-semibold">Bos</li>
+            <li className="cursor-pointer font-semibold">Tonic</li>
+            <li className="cursor-pointer font-semibold">Hey Halfway</li>
+          </ul>
+          <li className="cursor-pointer">About</li>
+        </ul>
+      </div>
+      <div className="hidden md:block medium-navbar">
         <ul className="md:flex space-x-4 font-xl absolute top-16 right-16 lg:right-40">
-          <li className="text-lg cursor-pointer" onClick={handleClick}>
+          <li
+            className="text-lg cursor-pointer scale-95 hover:scale-100 duration-500"
+            onClick={handleClickSubMenu}
+          >
             My Work
           </li>
           <ul
