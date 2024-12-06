@@ -26,6 +26,8 @@ import noobeingImage from "./images/noobeing.png";
 import oneDayOnlyImage from "./images/one-day-only.png";
 import gameImage from "./images/game.png";
 
+import { Element } from "react-scroll";
+
 export default function App() {
   return (
     <div className="font-fontContent">
@@ -54,36 +56,46 @@ export default function App() {
         </p>
       </div>
       <div className="work-section">
-        <LeftWork
-          image={jimBeamImage}
-          title={jimBeamData.title}
-          contentChallenge={jimBeamData.contentChallenge}
-          contentSolution={jimBeamData.contentSolution}
-        />
-        <RightWork
-          image={mukuruImage}
-          title={mukuruData.title}
-          contentChallenge={mukuruData.contentChallenge}
-          contentSolution={mukuruData.contentSolution}
-        />
-        <LeftWork
-          image={bosImage}
-          title={bosData.title}
-          contentChallenge={bosData.contentChallenge}
-          contentSolution={bosData.contentSolution}
-        />
-        <RightWork
-          image={tonicImage}
-          title={tonicData.title}
-          contentChallenge={tonicData.contentChallenge}
-          contentSolution={tonicData.contentSolution}
-        />
-        <LeftWork
-          image={heyHalfwayImage}
-          title={heyHalfwayData.title}
-          contentChallenge={heyHalfwayData.contentChallenge}
-          contentSolution={heyHalfwayData.contentSolution}
-        />
+        <Element name="jim-beam">
+          <LeftWork
+            image={jimBeamImage}
+            title={jimBeamData.title}
+            contentChallenge={jimBeamData.contentChallenge}
+            contentSolution={jimBeamData.contentSolution}
+          />
+        </Element>
+        <Element name="mukuru">
+          <RightWork
+            image={mukuruImage}
+            title={mukuruData.title}
+            contentChallenge={mukuruData.contentChallenge}
+            contentSolution={mukuruData.contentSolution}
+          />
+        </Element>
+        <Element name="bos">
+          <LeftWork
+            image={bosImage}
+            title={bosData.title}
+            contentChallenge={bosData.contentChallenge}
+            contentSolution={bosData.contentSolution}
+          />
+        </Element>
+        <Element name="tonic">
+          <RightWork
+            image={tonicImage}
+            title={tonicData.title}
+            contentChallenge={tonicData.contentChallenge}
+            contentSolution={tonicData.contentSolution}
+          />
+        </Element>
+        <Element name="hey-halfway">
+          <LeftWork
+            image={heyHalfwayImage}
+            title={heyHalfwayData.title}
+            contentChallenge={heyHalfwayData.contentChallenge}
+            contentSolution={heyHalfwayData.contentSolution}
+          />
+        </Element>
       </div>
       <div className="more-work-section mt-20">
         <div>
