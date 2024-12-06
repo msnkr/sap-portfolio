@@ -42,7 +42,7 @@ const Navbar = () => {
           className={`${
             nav ? "block" : "hidden"
           } w-[30px] absolute top-16 right-12 cursor-pointer md:hidden`}
-          alt="hamburger-icon"
+          alt="close-icon"
           onClick={handleClickNavbar}
         />
       </div>
