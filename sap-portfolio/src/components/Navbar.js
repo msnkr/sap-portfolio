@@ -41,7 +41,7 @@ const Navbar = () => {
               subMenu
                 ? "visible opacity-100 translate-x-0"
                 : "invisible opacity-0 -translate-x-1/2"
-            } absolute top-0 right-24 duration-500`}
+            } absolute top-0 right-24 duration-500 w-[200px]`}
           >
             <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
               Jim Beam
