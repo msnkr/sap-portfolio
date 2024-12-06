@@ -1,5 +1,6 @@
 import Logo from "./Logo";
 import hamburgerIcon from "../images/icon-hamburger.svg";
+import closeIcon from "../images/icon-close.svg";
 
 import { Link } from "react-scroll";
 
@@ -28,7 +29,19 @@ const Navbar = () => {
       <div>
         <img
           src={hamburgerIcon}
-          className="w-[30px] absolute top-16 right-12 cursor-pointer md:hidden"
+          className={`${
+            nav ? "hidden" : ""
+          } w-[30px] absolute top-16 right-12 cursor-pointer md:hidden`}
+          alt="hamburger-icon"
+          onClick={handleClickNavbar}
+        />
+      </div>
+      <div>
+        <img
+          src={closeIcon}
+          className={`${
+            nav ? "block" : "hidden"
+          } w-[30px] absolute top-16 right-12 cursor-pointer md:hidden`}
           alt="hamburger-icon"
           onClick={handleClickNavbar}
         />
