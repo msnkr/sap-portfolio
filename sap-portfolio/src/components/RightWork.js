@@ -11,6 +11,11 @@ const RightWork = ({ image, title, contentChallenge, contentSolution }) => {
         <div className="mt-4">
           <span className="font-bold">The Solution:</span> {contentSolution}
         </div>
+        <div className="mt-4">
+          <p className="text-center font-semibold underline underline-offset-4">
+            View more
+          </p>
+        </div>
       </div>
       <div className="mt-12">
         <img
