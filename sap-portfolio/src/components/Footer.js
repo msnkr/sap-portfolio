@@ -50,10 +50,18 @@ const Footer = () => {
           <p className="text-xl">someone@gmail.com</p>
         </div>
         <div className="flex justify-center mt-4 mb-8">
-          <a href="https://linkedin.com">
+          <a
+            href="https://www.linkedin.com/in/copywriter-kashia-rees/"
+            target="_blank"
+            rel="norefferer"
+          >
             <img src={linkedinIcon} alt="linkedin-icon" />
           </a>
-          <a href="https://behance.net">
+          <a
+            href="https://www.behance.net/kashiarees"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img src={behanceIcon} alt="behance-icon" />
           </a>
         </div>
