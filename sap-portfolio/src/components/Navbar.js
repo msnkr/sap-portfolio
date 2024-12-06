@@ -95,7 +95,7 @@ const Navbar = () => {
                 Jim Beam
               </li>
             </Link>
-            <Link to="Mukuru" smooth={true} duration={800}>
+            <Link to="mukuru" smooth={true} duration={800}>
               <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
                 Mukuru
               </li>

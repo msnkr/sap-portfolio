@@ -8,9 +8,11 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <div className=" text-center lg:grid grid-cols-3 items-center lg:mt-20 lg:mb-12">
-      <div className="mt-12 lg:mt-0">
-        <Logo />
-      </div>
+      <Link to="home" smooth={true} duration={800}>
+        <div className="mt-12 lg:mt-0">
+          <Logo />
+        </div>
+      </Link>
       <div className="mt-5 lg:mt-0">
         <ul className="text-center space-y-1">
           <Link to="jim-beam" smooth={true} duration={800}>
@@ -26,6 +28,11 @@ const Footer = () => {
           <Link to="bos" smooth={true} duration={800}>
             <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
               Bos
+            </li>
+          </Link>
+          <Link to="tonic" smooth={true} duration={800}>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Tonic
             </li>
           </Link>
           <Link to="hey-halfway" smooth={true} duration={800}>

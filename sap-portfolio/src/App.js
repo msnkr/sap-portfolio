@@ -31,9 +31,11 @@ import { Element } from "react-scroll";
 export default function App() {
   return (
     <div className="font-fontContent">
-      <div className="navbar relative px-8 py-12 lg:px-20 xl:px-40">
-        <Navbar />
-      </div>
+      <Element name="home">
+        <div className="navbar relative px-8 py-12 lg:px-20 xl:px-40">
+          <Navbar />
+        </div>
+      </Element>
       <div className="opening-section p-12 text-center">
         <div>
           <p className="text-4xl font-bold font-fontTitle mt-24">
