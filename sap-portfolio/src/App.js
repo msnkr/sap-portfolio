@@ -52,9 +52,6 @@ export default function App() {
           to solv problems. Thank you for taking the time to check out my work.
           Now, let’s get to the goods.
         </p>
-        <p className="mt-12 font-bold text-lg cursor-pointer font-fontTitle">
-          Jump to the work
-        </p>
       </div>
       <div className="work-section">
         <LeftWork

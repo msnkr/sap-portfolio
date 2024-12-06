@@ -43,11 +43,22 @@ const Navbar = () => {
                 : "invisible opacity-0 -translate-x-1/2"
             } absolute top-0 right-24 duration-500`}
           >
-            <li className="cursor-pointer font-semibold">Jim Beam</li>
-            <li className="cursor-pointer font-semibold">Mukuru</li>
-            <li className="cursor-pointer font-semibold">Bos</li>
-            <li className="cursor-pointer font-semibold">Tonic</li>
-            <li className="cursor-pointer font-semibold">Hey Halfway</li>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Jim Beam
+            </li>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Mukuru
+            </li>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Bos
+            </li>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Tonic
+            </li>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Hey Halfway
+            </li>
+            <li className="cursor-pointer font-semibold">View all work</li>
           </ul>
           <li className="cursor-pointer">About</li>
         </ul>
@@ -67,11 +78,22 @@ const Navbar = () => {
                 : "invisible opacity-0 -translate-x-1/2"
             } absolute top-12 right-20 w-96 text-end duration-500`}
           >
-            <li className="cursor-pointer font-semibold">Jim Beam</li>
-            <li className="cursor-pointer font-semibold">Mukuru</li>
-            <li className="cursor-pointer font-semibold">Bos</li>
-            <li className="cursor-pointer font-semibold">Tonic</li>
-            <li className="cursor-pointer font-semibold">Hey Halfway</li>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Jim Beam
+            </li>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Mukuru
+            </li>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Bos
+            </li>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Tonic
+            </li>
+            <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+              Hey Halfway
+            </li>
+            <li className="cursor-pointer font-semibold">View all work</li>
           </ul>
           <li className="text-lg cursor-pointer">About</li>
         </ul>

@@ -10,26 +10,38 @@ const Footer = () => {
         <Logo />
       </div>
       <div className="mt-5 lg:mt-0">
-        <ul className="text-center space-y-1 font-semibold">
-          <li className="cursor-pointer">Jim Beam</li>
-          <li className="cursor-pointer">Mukuru</li>
-          <li className="cursor-pointer">Bos</li>
-          <li className="cursor-pointer">Tonic</li>
-          <li className="cursor-pointer">Hey Halfway</li>
+        <ul className="text-center space-y-1">
+          <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+            Jim Beam
+          </li>
+          <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+            Mukuru
+          </li>
+          <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+            Bos
+          </li>
+          <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+            Tonic
+          </li>
+          <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+            Hey Halfway
+          </li>
+          <li className="cursor-pointer font-semibold underline underline-offset-4">
+            View all work
+          </li>
         </ul>
       </div>
       <div className="mt-5 lg:mt-0">
         <div>
           <p className="text-xl">someone@gmail.com</p>
         </div>
-        <div className="mt-4">
-          <button className="border-2 border-black px-4 py-1 font-bold">
-            Resume
-          </button>
-        </div>
         <div className="flex justify-center mt-4 mb-8">
-          <img src={linkedinIcon} alt="linkedin-icon" />
-          <img src={behanceIcon} alt="behance-icon" />
+          <a>
+            <img src={linkedinIcon} alt="linkedin-icon" />
+          </a>
+          <a>
+            <img src={behanceIcon} alt="behance-icon" />
+          </a>
         </div>
       </div>
     </div>
