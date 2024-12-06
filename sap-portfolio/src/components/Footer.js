@@ -53,14 +53,14 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/copywriter-kashia-rees/"
             target="_blank"
-            rel="norefferer"
+            rel="noreferrer"
           >
             <img src={linkedinIcon} alt="linkedin-icon" />
           </a>
           <a
             href="https://www.behance.net/kashiarees"
-            rel="noreferrer"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={behanceIcon} alt="behance-icon" />
           </a>
