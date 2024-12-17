@@ -73,14 +73,24 @@ const Navbar = () => {
                 Bos
               </li>
             </Link>
+            <Link to="csa" smooth={true} duration={800}>
+              <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+                CSA
+              </li>
+            </Link>
+            <Link to="new-planet" smooth={true} duration={800}>
+              <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+                New Planet
+              </li>
+            </Link>
             <Link to="tonic" smooth={true} duration={800}>
               <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
                 Tonic
               </li>
             </Link>
-            <Link to="hey-halfway" smooth={true} duration={800}>
+            <Link to="heyhalfway" smooth={true} duration={800}>
               <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
-                Hey Halfway
+                HeyHalfway
               </li>
             </Link>
             <li className="cursor-pointer font-semibold">
@@ -126,14 +136,24 @@ const Navbar = () => {
                 Bos
               </li>
             </Link>
+            <Link to="csa" smooth={true} duration={800}>
+              <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+                CSA
+              </li>
+            </Link>
+            <Link to="new-planet" smooth={true} duration={800}>
+              <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
+                New Planet
+              </li>
+            </Link>
             <Link to="tonic" smooth={true} duration={800}>
               <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
                 Tonic
               </li>
             </Link>
-            <Link to="hey-halfway" smooth={true} duration={800}>
+            <Link to="heyhalfway" smooth={true} duration={800}>
               <li className="cursor-pointer scale-95 hover:scale-100 duration-500">
-                Hey Halfway
+                HeyHalfway
               </li>
             </Link>
             <li className="cursor-pointer font-semibold">

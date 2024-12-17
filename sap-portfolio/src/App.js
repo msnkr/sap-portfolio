@@ -13,15 +13,20 @@ import mukuruImage from "./images/mukuru.png";
 import bosData from "./data/bos.json";
 import bosImage from "./images/bos.png";
 
+import csaData from "./data/cricket-sa.json";
+import csaImage from "./images/cricket-sa-1.png";
+
 import tonicData from "./data/tonic.json";
 import tonicImage from "./images/tonic-3.png";
+
+import newPlanet from "./data/new-planet.json";
+import newPlanetImage from "./images/new-planet.png";
 
 import heyHalfwayData from "./data/hey-halfway.json";
 import heyHalfwayImage from "./images/hey-halfway.png";
 
 import cricketSaImage from "./images/cricket-sa.png";
 import entelectImage from "./images/entelect.png";
-import newPlanetImage from "./images/new-planet.png";
 import noobeingImage from "./images/noobeing.png";
 import oneDayOnlyImage from "./images/one-day-only.png";
 import gameImage from "./images/game.png";
@@ -62,6 +67,7 @@ export default function App() {
           <LeftWork
             image={jimBeamImage}
             title={jimBeamData.title}
+            brand={jimBeamData.brand}
             contentChallenge={jimBeamData.contentChallenge}
             contentSolution={jimBeamData.contentSolution}
           />
@@ -70,6 +76,7 @@ export default function App() {
           <RightWork
             image={mukuruImage}
             title={mukuruData.title}
+            brand={mukuruData.brand}
             contentChallenge={mukuruData.contentChallenge}
             contentSolution={mukuruData.contentSolution}
           />
@@ -78,22 +85,43 @@ export default function App() {
           <LeftWork
             image={bosImage}
             title={bosData.title}
+            brand={bosData.brand}
             contentChallenge={bosData.contentChallenge}
             contentSolution={bosData.contentSolution}
+          />
+        </Element>
+        <Element name="csa">
+          <RightWork
+            image={csaImage}
+            title={csaData.title}
+            brand={csaData.brand}
+            contentChallenge={csaData.contentChallenge}
+            contentSolution={csaData.contentSolution}
+          />
+        </Element>
+        <Element name="new-planet">
+          <LeftWork
+            image={newPlanetImage}
+            title={newPlanet.title}
+            brand={newPlanet.brand}
+            contentChallenge={newPlanet.contentChallenge}
+            contentSolution={newPlanet.contentSolution}
           />
         </Element>
         <Element name="tonic">
           <RightWork
             image={tonicImage}
             title={tonicData.title}
+            brand={tonicData.brand}
             contentChallenge={tonicData.contentChallenge}
             contentSolution={tonicData.contentSolution}
           />
         </Element>
-        <Element name="hey-halfway">
+        <Element name="heyhalfway">
           <LeftWork
             image={heyHalfwayImage}
             title={heyHalfwayData.title}
+            brand={heyHalfwayData.brand}
             contentChallenge={heyHalfwayData.contentChallenge}
             contentSolution={heyHalfwayData.contentSolution}
           />
@@ -102,10 +130,10 @@ export default function App() {
       <div className="more-work-section mt-20">
         <div>
           <p className="text-3xl font-bold cursor-pointer text-center font-fontTitle">
-            More Work
+            Like what you’re seeing? <br /> Check out more of my work here.
           </p>
         </div>
-        <div className="mt-5 grid grid-cols-2">
+        <div className="mt-12 grid grid-cols-2">
           <ImageComponent image={cricketSaImage} />
           <ImageComponent image={entelectImage} />
           <ImageComponent image={newPlanetImage} />

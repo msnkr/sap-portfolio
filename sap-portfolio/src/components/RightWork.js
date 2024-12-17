@@ -1,9 +1,18 @@
-const RightWork = ({ image, title, contentChallenge, contentSolution }) => {
+const RightWork = ({
+  image,
+  title,
+  brand,
+  contentChallenge,
+  contentSolution,
+}) => {
   return (
     <div className="mt-12 lg:grid grid-cols-2 items-center">
       <div className="lg:text-end text-center px-12 lg:px-12">
         <div>
           <p className="text-4xl font-bold font-fontTitle">{title}</p>
+        </div>
+        <div>
+          <p>{brand}</p>
         </div>
         <div className="mt-5">
           <span className="font-bold">The Challenge:</span> {contentChallenge}

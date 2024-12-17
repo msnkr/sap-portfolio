@@ -1,4 +1,10 @@
-const LeftWork = ({ image, title, contentChallenge, contentSolution }) => {
+const LeftWork = ({
+  image,
+  title,
+  brand,
+  contentChallenge,
+  contentSolution,
+}) => {
   return (
     <div className="mt-12 lg:grid grid-cols-2 items-center">
       <div>
@@ -11,6 +17,9 @@ const LeftWork = ({ image, title, contentChallenge, contentSolution }) => {
       <div className="lg:text-start text-center px-12 lg:px-12">
         <div className="mt-12">
           <p className="text-4xl font-bold font-fontTitle">{title}</p>
+        </div>
+        <div>
+          <p>{brand}</p>
         </div>
         <div className="mt-5">
           <p>
