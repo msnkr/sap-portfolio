@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/sap-portfolio/static/css/main.fa191a94.css",
-    "main.js": "/sap-portfolio/static/js/main.fdc07b5f.js",
+    "main.css": "/sap-portfolio/static/css/main.59670333.css",
+    "main.js": "/sap-portfolio/static/js/main.b9b51b4e.js",
     "static/js/453.8af649ca.chunk.js": "/sap-portfolio/static/js/453.8af649ca.chunk.js",
     "static/media/noobeing.png": "/sap-portfolio/static/media/noobeing.8516d40f5f3a3b652cf6.png",
     "static/media/one-day-only.png": "/sap-portfolio/static/media/one-day-only.3b9f83daa7019424a093.png",
     "static/media/mukuru.png": "/sap-portfolio/static/media/mukuru.2e5070123fddc77070e1.png",
-    "static/media/tonic.png": "/sap-portfolio/static/media/tonic.d12055745afc979d12e6.png",
     "static/media/new-planet.png": "/sap-portfolio/static/media/new-planet.a953e9263386dea48831.png",
+    "static/media/cricket-sa-1.png": "/sap-portfolio/static/media/cricket-sa-1.cae8dc81618f69145fcc.png",
     "static/media/game.png": "/sap-portfolio/static/media/game.bf31fdea12e10701d172.png",
+    "static/media/tonic-3.png": "/sap-portfolio/static/media/tonic-3.560487af214eb07d8b8d.png",
     "static/media/bos.png": "/sap-portfolio/static/media/bos.74172aa764374bea1f0a.png",
     "static/media/hey-halfway.png": "/sap-portfolio/static/media/hey-halfway.9233d400bac3fd212135.png",
-    "static/media/jim-beam.png": "/sap-portfolio/static/media/jim-beam.6f5be0885d114b4b65d0.png",
-    "static/media/cricket-sa.png": "/sap-portfolio/static/media/cricket-sa.d42281fe479938ad989a.png",
-    "static/media/entelect.png": "/sap-portfolio/static/media/entelect.b1cc1ff8be5ef98e162e.png",
+    "static/media/jim-beam-2.png": "/sap-portfolio/static/media/jim-beam-2.c2a3fe76b6474f4bda69.png",
+    "static/media/cricket-sa-2.png": "/sap-portfolio/static/media/cricket-sa-2.78a296ec77e6f4866b61.png",
+    "static/media/mukuru-2.png": "/sap-portfolio/static/media/mukuru-2.edcc3a5a637e1d7842d2.png",
+    "static/media/entelect-2.png": "/sap-portfolio/static/media/entelect-2.b4b78d774b44c1f6b1dd.png",
     "static/media/icon-behance.svg": "/sap-portfolio/static/media/icon-behance.ec6a53380fb7f2c6311285c3ac6cd141.svg",
     "index.html": "/sap-portfolio/index.html",
     "static/media/icons-linkedin.svg": "/sap-portfolio/static/media/icons-linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
     "static/media/icon-hamburger.svg": "/sap-portfolio/static/media/icon-hamburger.5083b089ffcfb28332bb1e2eb4997de3.svg",
     "static/media/icon-close.svg": "/sap-portfolio/static/media/icon-close.edd134196953b7cb73fc7f41390efacc.svg",
-    "main.fa191a94.css.map": "/sap-portfolio/static/css/main.fa191a94.css.map",
-    "main.fdc07b5f.js.map": "/sap-portfolio/static/js/main.fdc07b5f.js.map",
+    "main.59670333.css.map": "/sap-portfolio/static/css/main.59670333.css.map",
+    "main.b9b51b4e.js.map": "/sap-portfolio/static/js/main.b9b51b4e.js.map",
     "453.8af649ca.chunk.js.map": "/sap-portfolio/static/js/453.8af649ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa191a94.css",
-    "static/js/main.fdc07b5f.js"
+    "static/css/main.59670333.css",
+    "static/js/main.b9b51b4e.js"
   ]
 }
