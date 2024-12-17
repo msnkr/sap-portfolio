@@ -5,7 +5,7 @@ import ImageComponent from "./components/ImageComponent";
 import Footer from "./components/Footer";
 
 import jimBeamData from "./data/jim-beam.json";
-import jimBeamImage from "./images/jim-beam.png";
+import jimBeamImage from "./images/jim-beam-2.png";
 
 import mukuruData from "./data/mukuru.json";
 import mukuruImage from "./images/mukuru.png";
@@ -14,7 +14,7 @@ import bosData from "./data/bos.json";
 import bosImage from "./images/bos.png";
 
 import tonicData from "./data/tonic.json";
-import tonicImage from "./images/tonic.png";
+import tonicImage from "./images/tonic-3.png";
 
 import heyHalfwayData from "./data/hey-halfway.json";
 import heyHalfwayImage from "./images/hey-halfway.png";
@@ -43,18 +43,18 @@ export default function App() {
           </p>
         </div>
         <p className="mt-5 lg:px-40">
-          I’m a mid-weight copywriter with over 7 years of experience in
-          writing. I graduated with an honours in Film and TV from Wits and
-          started my career in script writing. I then found my love for
-          copywriting and have a short copywriting course certificate from
-          London University of the Arts. In my advertising career, I’ve had the
-          privilege t work with incredible people and brands from conceptual
-          phase right to managing and nurturing the brand. There is nothing more
-          that I love about my work than solving problems creatively. Using my
-          skills in social media writing, TV ads, radio competitions and ads,
-          print and outdoor, websites and SEO, chat bots… to find creative ways
-          to solv problems. Thank you for taking the time to check out my work.
-          Now, let’s get to the goods.
+          I’m a mid-weight copywriter with over seven years of experience. I
+          graduated with honours in Film and TV from Wits and started my career
+          in script writing. I then found my love for copywriting and completed
+          a short copywriting course from the London University of the Arts. In
+          my advertising career, I’ve had the privilege of working with
+          incredible people and brands from the conceptual phase to managing and
+          nurturing them. There is nothing that I love more about my work than
+          solving problems creatively using my writing and thinking skills. I’ve
+          got experience in big idea thinking in a team, writing for TV,
+          digital, social media to long copy, outdoor, and everything else in
+          between. <br /> Thank you for taking the time to check out my work.
+          Now, let’s get to the good stuff.
         </p>
       </div>
       <div className="work-section">

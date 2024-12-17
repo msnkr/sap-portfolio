@@ -83,7 +83,15 @@ const Navbar = () => {
                 Hey Halfway
               </li>
             </Link>
-            <li className="cursor-pointer font-semibold">View all work</li>
+            <li className="cursor-pointer font-semibold">
+              <a
+                href="https://www.behance.net/kashiarees"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View more work
+              </a>
+            </li>
           </ul>
           <li className="cursor-pointer">About</li>
         </ul>
@@ -128,7 +136,16 @@ const Navbar = () => {
                 Hey Halfway
               </li>
             </Link>
-            <li className="cursor-pointer font-semibold">View all work</li>
+            <li className="cursor-pointer font-semibold">
+              {" "}
+              <a
+                href="https://www.behance.net/kashiarees"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View more work
+              </a>
+            </li>
           </ul>
           <li className="text-lg cursor-pointer">About</li>
         </ul>
