@@ -25,8 +25,9 @@ import newPlanetImage from "./images/new-planet.png";
 import heyHalfwayData from "./data/hey-halfway.json";
 import heyHalfwayImage from "./images/hey-halfway.png";
 
-import cricketSaImage from "./images/cricket-sa.png";
-import entelectImage from "./images/entelect.png";
+import mukuruGridImage from "./images/mukuru-2.png";
+import entelectGridImage from "./images/entelect-2.png";
+import cricketSAGridImage from "./images/cricket-sa-2.png";
 import noobeingImage from "./images/noobeing.png";
 import oneDayOnlyImage from "./images/one-day-only.png";
 import gameImage from "./images/game.png";
@@ -129,17 +130,23 @@ export default function App() {
       </div>
       <div className="more-work-section mt-20">
         <div>
-          <p className="text-3xl font-bold cursor-pointer text-center font-fontTitle">
+          <p className="text-2xl text-center font-fontTitle">
             Like what you’re seeing? <br /> Check out more of my work here.
           </p>
         </div>
         <div className="mt-12 grid grid-cols-2">
-          <ImageComponent image={cricketSaImage} />
-          <ImageComponent image={entelectImage} />
-          <ImageComponent image={newPlanetImage} />
+          <ImageComponent image={mukuruGridImage} />
+          <ImageComponent image={entelectGridImage} />
+          <ImageComponent image={cricketSAGridImage} />
           <ImageComponent image={noobeingImage} />
           <ImageComponent image={oneDayOnlyImage} />
           <ImageComponent image={gameImage} />
+        </div>
+        <div>
+          <p className="text-2xl text-center font-fontTitle mt-12">
+            Congrats you made it to the end! <br /> The only prize is my
+            gratitude.
+          </p>
         </div>
       </div>
       <div>
