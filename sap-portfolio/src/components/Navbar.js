@@ -22,7 +22,7 @@ const Navbar = () => {
         <Logo />
       </div>
       <div className="mobile-navbar">
-        <ul className="absolute top-16 right-12 md:right-28 text-end">
+        <ul className="absolute top-16 right-12 md:right-40 text-end">
           <li
             className={`${
               subMenu ? "underline underline-offset-8" : ""
