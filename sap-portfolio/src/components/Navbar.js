@@ -1,10 +1,8 @@
 import Logo from "./Logo";
-import hamburgerIcon from "../images/icon-hamburger.svg";
-import closeIcon from "../images/icon-close.svg";
 
 import { Link } from "react-scroll";
-
 import { useState } from "react";
+
 const Navbar = () => {
   const [subMenu, setSubMenu] = useState(false);
 
