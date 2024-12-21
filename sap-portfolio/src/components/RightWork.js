@@ -4,6 +4,7 @@ const RightWork = ({
   brand,
   contentChallenge,
   contentSolution,
+  link,
 }) => {
   return (
     <div className="mt-12 lg:grid grid-cols-2 items-center">
@@ -22,7 +23,9 @@ const RightWork = ({
         </div>
         <div className="mt-4">
           <p className="text-center font-semibold underline underline-offset-4">
-            View more
+            <a href={link} target="_blank" rel="noreferrer">
+              View more
+            </a>
           </p>
         </div>
       </div>

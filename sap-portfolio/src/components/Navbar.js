@@ -103,7 +103,6 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <li className="cursor-pointer">About</li>
         </ul>
       </div>
       <div className="hidden md:block medium-navbar">
@@ -167,7 +166,6 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <li className="text-lg cursor-pointer">About</li>
         </ul>
       </div>
     </div>

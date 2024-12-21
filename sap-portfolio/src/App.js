@@ -71,6 +71,7 @@ export default function App() {
             brand={jimBeamData.brand}
             contentChallenge={jimBeamData.contentChallenge}
             contentSolution={jimBeamData.contentSolution}
+            link={jimBeamData.link}
           />
         </Element>
         <Element name="mukuru">
@@ -80,6 +81,7 @@ export default function App() {
             brand={mukuruData.brand}
             contentChallenge={mukuruData.contentChallenge}
             contentSolution={mukuruData.contentSolution}
+            link={mukuruData.link}
           />
         </Element>
         <Element name="bos">
@@ -89,6 +91,7 @@ export default function App() {
             brand={bosData.brand}
             contentChallenge={bosData.contentChallenge}
             contentSolution={bosData.contentSolution}
+            link={bosData.link}
           />
         </Element>
         <Element name="csa">
@@ -98,6 +101,7 @@ export default function App() {
             brand={csaData.brand}
             contentChallenge={csaData.contentChallenge}
             contentSolution={csaData.contentSolution}
+            link={csaData.link}
           />
         </Element>
         <Element name="new-planet">
@@ -107,6 +111,7 @@ export default function App() {
             brand={newPlanet.brand}
             contentChallenge={newPlanet.contentChallenge}
             contentSolution={newPlanet.contentSolution}
+            link={newPlanet.link}
           />
         </Element>
         <Element name="tonic">
@@ -116,6 +121,7 @@ export default function App() {
             brand={tonicData.brand}
             contentChallenge={tonicData.contentChallenge}
             contentSolution={tonicData.contentSolution}
+            link={tonicData.link}
           />
         </Element>
         <Element name="heyhalfway">
@@ -125,6 +131,7 @@ export default function App() {
             brand={heyHalfwayData.brand}
             contentChallenge={heyHalfwayData.contentChallenge}
             contentSolution={heyHalfwayData.contentSolution}
+            link={heyHalfwayData.link}
           />
         </Element>
       </div>
