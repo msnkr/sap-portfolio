@@ -32,12 +32,9 @@ import noobeingImage from "./images/noobeing.png";
 import oneDayOnlyImage from "./images/one-day-only.png";
 import gameImage from "./images/game.png";
 
-import { useState } from "react";
 import { Element } from "react-scroll";
 
 export default function App() {
-  const [navHeight, setNavHeight] = useState(false);
-
   return (
     <div className="font-fontContent">
       <Element name="home">
@@ -47,11 +44,7 @@ export default function App() {
       </Element>
       <div className="opening-section p-12 text-center">
         <div>
-          <p
-            className={`${
-              navHeight ? "mt-28" : "mt-16"
-            } text-4xl font-bold font-fontTitle duration-500`}
-          >
+          <p className="text-4xl font-bold font-fontTitle duration-500 mt-16">
             Hello. I'm Kashia!
           </p>
         </div>
