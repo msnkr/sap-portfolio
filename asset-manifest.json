@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sap-portfolio/static/css/main.59670333.css",
-    "main.js": "/sap-portfolio/static/js/main.b9b51b4e.js",
+    "main.css": "/sap-portfolio/static/css/main.668c0a7c.css",
+    "main.js": "/sap-portfolio/static/js/main.56db2e29.js",
     "static/js/453.8af649ca.chunk.js": "/sap-portfolio/static/js/453.8af649ca.chunk.js",
     "static/media/noobeing.png": "/sap-portfolio/static/media/noobeing.8516d40f5f3a3b652cf6.png",
     "static/media/one-day-only.png": "/sap-portfolio/static/media/one-day-only.3b9f83daa7019424a093.png",
@@ -19,14 +19,12 @@
     "static/media/icon-behance.svg": "/sap-portfolio/static/media/icon-behance.ec6a53380fb7f2c6311285c3ac6cd141.svg",
     "index.html": "/sap-portfolio/index.html",
     "static/media/icons-linkedin.svg": "/sap-portfolio/static/media/icons-linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
-    "static/media/icon-hamburger.svg": "/sap-portfolio/static/media/icon-hamburger.5083b089ffcfb28332bb1e2eb4997de3.svg",
-    "static/media/icon-close.svg": "/sap-portfolio/static/media/icon-close.edd134196953b7cb73fc7f41390efacc.svg",
-    "main.59670333.css.map": "/sap-portfolio/static/css/main.59670333.css.map",
-    "main.b9b51b4e.js.map": "/sap-portfolio/static/js/main.b9b51b4e.js.map",
+    "main.668c0a7c.css.map": "/sap-portfolio/static/css/main.668c0a7c.css.map",
+    "main.56db2e29.js.map": "/sap-portfolio/static/js/main.56db2e29.js.map",
     "453.8af649ca.chunk.js.map": "/sap-portfolio/static/js/453.8af649ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59670333.css",
-    "static/js/main.b9b51b4e.js"
+    "static/css/main.668c0a7c.css",
+    "static/js/main.56db2e29.js"
   ]
 }
