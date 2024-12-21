@@ -22,8 +22,13 @@ const Navbar = () => {
         <Logo />
       </div>
       <div className="mobile-navbar">
-        <ul className="absolute top-16 right-12 text-end">
-          <li className="cursor-pointer" onClick={handleClickSubMenu}>
+        <ul className="absolute top-16 right-12 md:right-28 text-end">
+          <li
+            className={`${
+              subMenu ? "underline underline-offset-8" : ""
+            } cursor-pointer`}
+            onClick={handleClickSubMenu}
+          >
             My Work
           </li>
           <ul
@@ -31,7 +36,7 @@ const Navbar = () => {
               subMenu
                 ? "visible opacity-100 translate-x-0"
                 : "invisible opacity-0 -translate-x-1/2"
-            } absolute top-0 right-24 duration-500 w-[200px]`}
+            } absolute top-10 right-0 md:top-0 md:right-24 duration-500 w-[200px]`}
           >
             <Link to="jim-beam" smooth={true} duration={800}>
               <li
